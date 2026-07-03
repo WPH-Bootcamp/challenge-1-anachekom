@@ -1,1 +1,82 @@
-/* code here */
+/* code he:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+  color: #fff;
+}
+
+/*navbar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg);
+  padding: 1.4rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 9999;
+}
+.navbar .nav-logo h2 {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.navbar .nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar .nav-menu a {
+  color: #fff;
+}
+
+.navbar .nav-menu a:hover {
+  color: var(--primary);
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu a {
+  color: #fff;
+}
+
+.nav-menu a:hover {
+  color: var(--primary);
+}
+
+.navbar-extra {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-extra a {
+  color: #fff;
+}
